@@ -18,7 +18,7 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main {
@@ -34,9 +34,10 @@ aside {
 }
 aside img {
     width: 200px;
+    height: auto;
 }
 footer {
-    margin: 10px;
+    margin-top: 10px;
     border-top: 1px dotted black;
     text-align: center;
 }
