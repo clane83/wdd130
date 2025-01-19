@@ -57,12 +57,14 @@ h2 {
     font-family: var(--font-family);
     font-weight: var(--small-font-weight);
     color: var(--heading-color);
+    padding: 20px
 }
 
 p {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     color: var(--Body-color);
+    padding-top: 15px;
 } 
 
 footer img{
@@ -77,7 +79,7 @@ footer img{
 }
 
 .hero img{
-    
+    float: right;
     display: block;
     width: 100%;
     height: auto;
