@@ -43,15 +43,22 @@ header nav a {
     text-decoration: none;
 
 }
+.hero div {
+    position: relative;
+}
 
-h1{
-    color: var(--heading-color);
+h1 {
+    color: #80ADA0;
     font-family: var(--font-family);
     font-weight: var(--font-weight);
-    position: relative;
+    margin-left: 50%;
+    position: absolute;
     text-align: center;
 
-
+}
+article {
+    position: absolute;
+    margin-top: 5rem;
 }
 h2 {
     font-family: var(--font-family);
