@@ -58,13 +58,20 @@ h1{
 h2 {
     font-family: var(--font-family);
     font-weight: var(--small-font-weight);
+    color: var(--Body-color);
 }
 
 p {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
+    color: var(--Body-color);
 } 
 
+footer img{
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+}
 
 .hero img{
     
@@ -72,12 +79,16 @@ p {
     width: 100%;
     height: auto;
     padding-bottom: 20px;
-    position: absolute;
+    
 
 }
+
 
 
 .hero article img {
     width: 300px;
     height: auto;
+    padding: 50px;
+    position: none;
 }
+
