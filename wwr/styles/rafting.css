@@ -48,17 +48,23 @@ header nav a {
 }
 
 h1 {
-    color: #80ADA0;
+    color: white;
     font-family: var(--font-family);
     font-weight: var(--font-weight);
-    margin-left: 50%;
+    margin-left: 40%;
     position: absolute;
-    text-align: center;
 
 }
 article {
     position: absolute;
     margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+article p{
+    color: white;
 }
 h2 {
     font-family: var(--font-family);
@@ -80,7 +86,7 @@ footer img{
 
 }
 
-.sociallinks img{
+.sociallinks a{
     text-decoration: none;
 
 }
