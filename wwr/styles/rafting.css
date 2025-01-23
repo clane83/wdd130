@@ -47,7 +47,7 @@ header nav a {
     position: relative;
 }
 
-h1 {
+.hero div h1 {
     color: white;
     font-family: var(--font-family);
     font-weight: var(--font-weight);
@@ -55,7 +55,7 @@ h1 {
     position: absolute;
 
 }
-article {
+.hero div article {
     position: absolute;
     margin-top: 5rem;
     margin-left: 10%;
