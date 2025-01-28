@@ -111,7 +111,7 @@ header nav a {
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
+    /* grid-row: 1fr 1fr 1fr; */
     grid-gap: 1%;
     /* font-family: var(--font-family); */
 
