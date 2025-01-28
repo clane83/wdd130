@@ -4,7 +4,7 @@
     --height: auto;
     --header-color: #F1DEDC;
     background-color: #80ADA0;
-    --font-family: "Lato", serif;
+    font-family: "Lato", serif;
     --font-weight: 400;
     --small-font-weight: 300;
     --Body-color: white;
@@ -22,6 +22,7 @@ header {
     border-bottom: 40px;
     padding: 1rem;
     color: var(--header-color);
+    font-family: var(--font-family);
 }
 
 header img{
@@ -54,7 +55,7 @@ header nav a {
 .hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: max-content;
 }
 
 .hero div {
@@ -70,6 +71,7 @@ header nav a {
 
 }
 .hero article {
+    font-size: var(--small-font-weight);
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 30%;
@@ -97,32 +99,50 @@ header nav a {
     padding: 10px;
 }
 
-.hero article p{
-    grid-column: 1;
-    grid-row: 1;
+.hero article p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-height: auto;
     color: var(--Body-color);
+    
 }
 
 .history {
-    margin-top: 100px;
+    margin-top: 10px;
     display: grid;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 80%;
+    /* font-family: var(--font-family); */
 
 }
 
 .history h2 {
-    font-family: var(--font-family);
-    font-weight: var(--small-font-weight);
+    /* font-family: var(--font-family); */
+    /* font-weight: var(--small-font-weight); */
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
     color: var(--heading-color);
-    padding: 20px
+    font-weight: var(--font-weight);
 }
 
 .history p {
-    font-family: var(--font-family);
-    font-weight: var(--font-weight);
+    /* grid-column: 1/1; */
+    grid-row: 2/3;
+    font-weight: var(--small-font-weight);
     color: var(--Body-color);
     padding-top: 15px;
 } 
+
+.history img{
+    grid-row: 2/3;
+    max-width: 90%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
 
 .adventure {
     font-family: var(--font-family);
