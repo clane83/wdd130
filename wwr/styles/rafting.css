@@ -50,6 +50,13 @@ header nav a {
     text-decoration: none;
 
 }
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+}
+
 .hero div {
     position: relative;
 }
@@ -64,28 +71,65 @@ header nav a {
 }
 .hero article {
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: max-content;
     margin-top: 5rem;
     margin-left: 10%;
     margin-right: 10%;
     
 }
 
-article p{
+.hero img{
+    float: right;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    
+}
+
+
+.hero article img {
+    grid-column: 2;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.hero article p{
+    grid-column: 1;
+    grid-row: 1;
     color: var(--Body-color);
 }
-h2 {
+
+.history {
+    margin-top: 100px;
+    display: grid;
+
+
+}
+
+.history h2 {
     font-family: var(--font-family);
     font-weight: var(--small-font-weight);
     color: var(--heading-color);
     padding: 20px
 }
 
-p {
+.history p {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     color: var(--Body-color);
     padding-top: 15px;
 } 
+
+.adventure {
+    font-family: var(--font-family);
+    font-weight: var(--small-font-weight);
+    color: var(--heading-color);
+    padding: 20px
+}
 
 footer img{
     width: 50px;
@@ -98,18 +142,5 @@ footer img{
 
 }
 
-.hero img{
-    float: right;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
-    
-}
 
-.hero article img {
-    width: 300px;
-    height: auto;
-    padding: 50px;
-}
 
