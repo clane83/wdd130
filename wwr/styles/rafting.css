@@ -160,18 +160,11 @@ h2 {
 .adventure figure {
     display: block;
     max-width: 50px; 
-    /* margin-left: 1%; */
     padding-right: 1px;
-    /* margin-right: 1%; */
     padding-right: 1px;
-    /* margin: 0 auto; */
-    max-height: auto;
+    max-height: 100vh;
     justify-content: space-between;
-    /* align-items: center; */
 }
-/* .adventure figcaption {
-    display: ;
-} */
 
 footer img{
     width: 50px;
