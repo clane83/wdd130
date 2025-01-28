@@ -47,15 +47,15 @@ header nav a {
     position: relative;
 }
 
-.hero div h1 {
-    color: white;
+.hero h1 {
+    color: var(--Body-color);
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     margin-left: 40%;
     position: absolute;
 
 }
-.hero div article {
+.hero article {
     position: absolute;
     margin-top: 5rem;
     margin-left: 10%;
@@ -64,7 +64,7 @@ header nav a {
 }
 
 article p{
-    color: white;
+    color: var(--Body-color);
 }
 h2 {
     font-family: var(--font-family);
