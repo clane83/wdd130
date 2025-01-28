@@ -71,7 +71,7 @@ header nav a {
 
 }
 .hero article {
-    font-size: var(--small-font-weight);
+    font-size: var(--small-font-weight)px;
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 30%;
