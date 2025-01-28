@@ -94,7 +94,7 @@ header nav a {
 
 .hero article img {
     grid-column: 2;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     padding: 10px;
 }
@@ -148,8 +148,8 @@ h2 {
 
 .adventure {
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* grid-template-rows: 75px 75px; */
@@ -162,17 +162,22 @@ h2 {
 }
 
 .adventure figure {
-    grid-row: 2/3;
-    max-width: 50px;
+    display: block;
+
+    /* grid-row: 2/3;
+    max-width: 50px; */
     /* margin-left: 1%; */
     padding-right: 1px;
     /* margin-right: 1%; */
-    padding-right: px;
+    padding-right: 1px;
     /* margin: 0 auto; */
     max-height: auto;
-    justify-items: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
 }
+/* .adventure figcaption {
+    display: ;
+} */
 
 footer img{
     width: 50px;
