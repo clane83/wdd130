@@ -148,12 +148,8 @@ h2 {
 
 .adventure {
     margin-top: 5%;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 75px 75px; */
-    /* grid-template-rows: 2px; */
     font-family: var(--font-family);
     font-weight: var(--small-font-weight);
     color: var(--heading-color);
@@ -163,9 +159,7 @@ h2 {
 
 .adventure figure {
     display: block;
-
-    /* grid-row: 2/3;
-    max-width: 50px; */
+    max-width: 50px; 
     /* margin-left: 1%; */
     padding-right: 1px;
     /* margin-right: 1%; */
