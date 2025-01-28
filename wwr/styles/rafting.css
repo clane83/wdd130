@@ -71,7 +71,7 @@ header nav a {
 
 }
 .hero article {
-    font-size: var(--small-font-weight);
+    /* font-size: var(--small-font-weight); */
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 30%;
@@ -104,6 +104,7 @@ header nav a {
     grid-row: 1/2;
     /* max-height: auto; */
     color: var(--Body-color);
+    font-weight: var(--small-font-weight);
     
 }
 
