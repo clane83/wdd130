@@ -7,8 +7,8 @@
     font-family: "Lato", serif;
     --font-weight: 400;
     --small-font-weight: 300;
-    --Body-color: white;
-    --heading-color: white;
+    --Body-color: #000000;
+    --heading-color:  #000000;
 
 }
 
@@ -63,7 +63,7 @@ header nav a {
 }
 
 .hero h1 {
-    color: var(--Body-color);
+    color: white;
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     margin-left: 40%;
@@ -103,7 +103,7 @@ header nav a {
     grid-column: 1/2;
     grid-row: 1/2;
     /* max-height: auto; */
-    color: var(--Body-color);
+    color: white;
     font-weight: var(--small-font-weight);
     
 }
@@ -166,10 +166,24 @@ h2 {
     justify-content: space-between;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+}
+
 footer img{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    justify-items: space-between;
     width: 50px;
     height: auto;
 
+}
+footer p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    color: var(--Body-color)
 }
 
 .sociallinks a{
