@@ -157,13 +157,15 @@ h2 {
     /* padding: 20px */
 }
 
-.adventure figure {
+.adventure figure img{
     display: block;
-    max-width: 50px; 
-    padding-right: 1px;
-    padding-right: 1px;
+    max-width: 200px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* padding-right: 1px;
+    padding-right: 1px; */
     max-height: 100vh;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 footer {
