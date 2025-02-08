@@ -164,7 +164,7 @@ h2 {
     grid-template-rows: 1fr;
     /* padding-right: 1px;
     padding-right: 1px; */
-    max-height: auto;
+    max-height: 100vh;
     /* justify-content: space-between; */
 }
 
@@ -209,7 +209,7 @@ textarea {
     grid-template-rows: 1fr;
     /* padding-right: 1px;
     padding-right: 1px; */
-    max-height: auto;
+    max-height: 100vh;
     /* justify-content: space-between; */
 }
 
